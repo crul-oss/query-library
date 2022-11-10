@@ -1,0 +1,1 @@
+{"name":"Twitter API recent tweets custom query","description":"Uses the twitter API to query recent tweets based off of key words/phrases, and other controls.","tags":["requires-credentials","social"],"query":"api get https://api.twitter.com/2/tweets/search/recent?query=NASA&tweet.fields=author_id --credentials.oauth \"twitter\"\n|| normalize data","templateSchema":{}}
