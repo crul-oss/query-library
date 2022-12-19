@@ -1,0 +1,15 @@
+{
+  "name": "query-library",
+  "version": "1.0.0",
+  "description": "OSS repository of crul queries",
+  "main": "index.js",
+  "scripts": {
+    "format": "node queryConverter.js"
+  },
+  "repository": "https://github.com/crul-oss/query-library.git",
+  "author": "Crul, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
