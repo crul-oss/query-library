@@ -4,12 +4,16 @@
   "description": "OSS repository of crul queries",
   "main": "index.js",
   "scripts": {
-    "format": "node queryConverter.js"
+    "format": "node ./lib/formatQuery.js",
+    "test": "USER_ROLE=test mocha --recursive './lib/**/*.test.js' --exit"
   },
   "repository": "https://github.com/crul-oss/query-library.git",
   "author": "Crul, Inc.",
   "license": "MIT",
   "dependencies": {
     "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
   }
 }
